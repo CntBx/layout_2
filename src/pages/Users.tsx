@@ -13,157 +13,159 @@ export const Users = () => {
         <p className="">ФИО</p>
         <p className="">Email</p>
       </div>
-      <div
-        onClick={() => setModalActive(true)}
-        className="flex mt-[12px] gap-[695px] ml-[308px] w-[1304px] max-w-[80%] h-[60px] rounded-[10px] shadow-md"
-      >
-        <div className="relative ml-[52px] mt-[20px] font-Commissioner">
-          ФИО
-          <img
-            src={id_logo}
-            alt="id"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
-          />
+      <div className="flex flex-col justify-center">
+        <div
+          onClick={() => setModalActive(true)}
+          className="flex gap-[695px] w-[1304px] max-w-[80%] h-[60px] rounded-[10px] shadow-md"
+        >
+          <div className="relative ml-[52px] mt-[20px] font-Commissioner">
+            ФИО
+            <img
+              src={id_logo}
+              alt="id"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
+            />
+          </div>
+          <div className="relative mt-[20px] font-Commissioner">
+            Email
+            <img
+              src={email_logo}
+              alt="Email"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
+            />
+          </div>
         </div>
-        <div className="relative mt-[20px] font-Commissioner">
-          Email
-          <img
-            src={email_logo}
-            alt="Email"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
-          />
+        <div className="flex  gap-[695px] w-[1304px] max-w-[80%] h-[60px] rounded-[10px] shadow-md">
+          <div className="relative ml-[52px] mt-[20px] font-Commissioner">
+            ФИО
+            <img
+              src={id_logo}
+              alt="id"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
+            />
+          </div>
+          <div className="relative mt-[20px] font-Commissioner">
+            Email
+            <img
+              src={email_logo}
+              alt="Email"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
+            />
+          </div>
         </div>
+        <div className="flex  gap-[695px]  w-[1304px] max-w-[80%] h-[60px]   rounded-[10px] shadow-md">
+          <div className="relative ml-[52px] mt-[20px] font-Commissioner">
+            ФИО
+            <img
+              src={id_logo}
+              alt="id"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
+            />
+          </div>
+          <div className="relative mt-[20px] font-Commissioner">
+            Email
+            <img
+              src={email_logo}
+              alt="Email"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
+            />
+          </div>
+        </div>
+        <div className="flex  gap-[695px] w-[1304px] max-w-[80%] h-[60px]   rounded-[10px] shadow-md">
+          <div className="relative ml-[52px] mt-[20px] font-Commissioner">
+            ФИО
+            <img
+              src={id_logo}
+              alt="id"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
+            />
+          </div>
+          <div className="relative mt-[20px] font-Commissioner">
+            Email
+            <img
+              src={email_logo}
+              alt="Email"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
+            />
+          </div>
+        </div>
+        <div className="flex  gap-[695px]  w-[1304px] max-w-[80%] h-[60px]   rounded-[10px] shadow-md">
+          <div className="relative ml-[52px] mt-[20px] font-Commissioner">
+            ФИО
+            <img
+              src={id_logo}
+              alt="id"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
+            />
+          </div>
+          <div className="relative mt-[20px] font-Commissioner">
+            Email
+            <img
+              src={email_logo}
+              alt="Email"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
+            />
+          </div>
+        </div>
+        <div className="flex gap-[695px] w-[1304px] max-w-[80%] h-[60px]  rounded-[10px] shadow-md">
+          <div className="relative ml-[52px] mt-[20px] font-Commissioner">
+            ФИО
+            <img
+              src={id_logo}
+              alt="id"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
+            />
+          </div>
+          <div className="relative mt-[20px] font-Commissioner">
+            Email
+            <img
+              src={email_logo}
+              alt="Email"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
+            />
+          </div>
+        </div>
+        <div className="flex gap-[695px] w-[1304px] max-w-[80%] h-[60px]  rounded-[10px] shadow-md">
+          <div className="relative ml-[52px] mt-[20px] font-Commissioner">
+            ФИО
+            <img
+              src={id_logo}
+              alt="id"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
+            />
+          </div>
+          <div className="relative mt-[20px] font-Commissioner">
+            Email
+            <img
+              src={email_logo}
+              alt="Email"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
+            />
+          </div>
+        </div>
+        <div className="flex gap-[695px] w-[1304px] max-w-[80%] h-[60px] rounded-[10px] shadow-md">
+          <div className="relative ml-[52px] mt-[20px] font-Commissioner">
+            ФИО
+            <img
+              src={id_logo}
+              alt="id"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
+            />
+          </div>
+          <div className="relative mt-[20px] font-Commissioner">
+            Email
+            <img
+              src={email_logo}
+              alt="Email"
+              className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
+            />
+          </div>
+        </div>
+        <div className="flex  gap-[695px] w-[1304px] max-w-[80%] h-[33px]  rounded-[10px] shadow-md"></div>
+        <Modal open={modalActive} close={setModalActive}>
+          <ModalWindow />
+        </Modal>
       </div>
-      <div className="flex mt-[15px] gap-[695px] ml-[308px] w-[1304px] max-w-[80%] h-[60px] rounded-[10px] shadow-md">
-        <div className="relative ml-[52px] mt-[20px] font-Commissioner">
-          ФИО
-          <img
-            src={id_logo}
-            alt="id"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
-          />
-        </div>
-        <div className="relative mt-[20px] font-Commissioner">
-          Email
-          <img
-            src={email_logo}
-            alt="Email"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
-          />
-        </div>
-      </div>
-      <div className="flex mt-[15px] gap-[695px] ml-[308px] w-[1304px] max-w-[80%] h-[60px]   rounded-[10px] shadow-md">
-        <div className="relative ml-[52px] mt-[20px] font-Commissioner">
-          ФИО
-          <img
-            src={id_logo}
-            alt="id"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
-          />
-        </div>
-        <div className="relative mt-[20px] font-Commissioner">
-          Email
-          <img
-            src={email_logo}
-            alt="Email"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
-          />
-        </div>
-      </div>
-      <div className="flex mt-[15px] gap-[695px] ml-[308px] w-[1304px] max-w-[80%] h-[60px]   rounded-[10px] shadow-md">
-        <div className="relative ml-[52px] mt-[20px] font-Commissioner">
-          ФИО
-          <img
-            src={id_logo}
-            alt="id"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
-          />
-        </div>
-        <div className="relative mt-[20px] font-Commissioner">
-          Email
-          <img
-            src={email_logo}
-            alt="Email"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
-          />
-        </div>
-      </div>
-      <div className="flex mt-[15px] gap-[695px] ml-[308px] w-[1304px] max-w-[80%] h-[60px]   rounded-[10px] shadow-md">
-        <div className="relative ml-[52px] mt-[20px] font-Commissioner">
-          ФИО
-          <img
-            src={id_logo}
-            alt="id"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
-          />
-        </div>
-        <div className="relative mt-[20px] font-Commissioner">
-          Email
-          <img
-            src={email_logo}
-            alt="Email"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
-          />
-        </div>
-      </div>
-      <div className="flex mt-[15px] gap-[695px] ml-[308px] w-[1304px] max-w-[80%] h-[60px]  rounded-[10px] shadow-md">
-        <div className="relative ml-[52px] mt-[20px] font-Commissioner">
-          ФИО
-          <img
-            src={id_logo}
-            alt="id"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
-          />
-        </div>
-        <div className="relative mt-[20px] font-Commissioner">
-          Email
-          <img
-            src={email_logo}
-            alt="Email"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
-          />
-        </div>
-      </div>
-      <div className="flex mt-[15px] gap-[695px] ml-[308px] w-[1304px] max-w-[80%] h-[60px]  rounded-[10px] shadow-md">
-        <div className="relative ml-[52px] mt-[20px] font-Commissioner">
-          ФИО
-          <img
-            src={id_logo}
-            alt="id"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
-          />
-        </div>
-        <div className="relative mt-[20px] font-Commissioner">
-          Email
-          <img
-            src={email_logo}
-            alt="Email"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
-          />
-        </div>
-      </div>
-      <div className="flex mt-[15px] gap-[695px] ml-[308px] w-[1304px] max-w-[80%] h-[60px] rounded-[10px] shadow-md">
-        <div className="relative ml-[52px] mt-[20px] font-Commissioner">
-          ФИО
-          <img
-            src={id_logo}
-            alt="id"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-11"
-          />
-        </div>
-        <div className="relative mt-[20px] font-Commissioner">
-          Email
-          <img
-            src={email_logo}
-            alt="Email"
-            className="absolute w-[20px] h-[20px] bottom-[20px] right-12"
-          />
-        </div>
-      </div>
-      <div className="flex mt-[15px] gap-[695px] ml-[308px] w-[1304px] max-w-[80%] h-[33px]  rounded-[10px] shadow-md"></div>
-      <Modal open={modalActive} close={setModalActive}>
-        <ModalWindow />
-      </Modal>
     </>
   );
 };

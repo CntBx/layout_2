@@ -1,25 +1,31 @@
+const arr = [{ info1: "Информация:" }, { info2: "Информация" }];
+
+let res = arr.map((item) => {
+  return (
+    <div className="mb-[19px] ">
+      <p className="text-posts ml-[22px] ">{item.info1}</p>
+      <p className="ml-[22px] ">{item.info2}</p>
+    </div>
+  );
+});
+
 export const Posts = () => {
   return (
-    <div>
-      <div className=" ml-[308px] mt-[64px] flex flex-col w-[1304px] max-w-[80%] h-[123px] bg-gray-100 rounded-[10px]">
-        <p className="text-posts pt-[11px] pl-[22px]">Информация:</p>
-        <p className="pt-[11px] pl-[22px]">Информация</p>
+    <div className=" w-[1520px] h-[675px] border-2 overflow-auto">
+      <div className=" flex flex-col justify-center ml-[108px] mt-[39px] bg-gray-200 w-[1304px] h-[123px]  rounded-md gap-7 ">
+        {res}
       </div>
-      <div className="ml-[308px] mt-[15px] flex flex-col w-[1304px] max-w-[80%] h-[123px]  bg-gray-100 rounded-[10px]">
-        <p className="text-posts pt-[11px] pl-[22px]">Информация:</p>
-        <p className="pt-[11px] pl-[22px]">Информация</p>
+      <div className="flex flex-col justify-center ml-[108px] mt-[15px] bg-gray-200 w-[1304px] h-[123px]  rounded-md gap-7 ">
+        {res}
       </div>
-      <div className="ml-[308px] mt-[15px] flex flex-col w-[1304px] max-w-[80%] h-[123px]  bg-gray-100 rounded-[10px]">
-        <p className="text-posts pt-[11px] pl-[22px]">Информация:</p>
-        <p className="pt-[11px] pl-[22px]">Информация</p>
+      <div className="flex flex-col justify-center ml-[108px] mt-[15px] bg-gray-200 w-[1304px] h-[123px] rounded-md gap-7 mb-5">
+        {res}
       </div>
-      <div className="ml-[308px] mt-[15px] flex flex-col w-[1304px] max-w-[80%] h-[123px]  bg-gray-100 rounded-[10px]">
-        <p className="text-posts pt-[11px] pl-[22px]">Информация:</p>
-        <p className="pt-[11px] pl-[22px]">Информация</p>
+      <div className="flex flex-col justify-center ml-[108px] mt-[15px] bg-gray-200 w-[1304px] h-[123px]  rounded-md gap-7 mb-5">
+        {res}
       </div>
-      <div className="ml-[308px] mt-[15px] flex flex-col w-[1304px] max-w-[80%] h-[84px]  bg-gray-100 rounded-[10px]">
-        <p className="text-posts pt-[11px] pl-[22px]">Информация:</p>
-        <p className="pt-[11px] pl-[22px]">Информация</p>
+      <div className="flex flex-col justify-center ml-[108px] mt-[15px] bg-gray-200 w-[1304px] h-[123px]  rounded-md gap-7 mb-5">
+        {res}
       </div>
     </div>
   );
