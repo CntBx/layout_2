@@ -5,7 +5,9 @@ export default {
     extend: {
       colors: {
         footer: "#CED2D4 ",
-        posts: "#808A8F",
+        information: "#808A8F",
+        posts: "#F1F3F3",
+        username: "#808A8F",
         personal_card: "#6B7280",
         button: "#6B7280",
       },

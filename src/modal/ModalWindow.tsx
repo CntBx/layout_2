@@ -1,4 +1,18 @@
-export function ModalWindow() {
+import { useNavigate } from "react-router-dom";
+
+interface IModal {
+  modalActive: (value: boolean) => void
+}
+
+export function ModalWindow({modalActive}: IModal) {
+
+  const navigation = useNavigate()
+
+  function goHome () {
+    modalActive(false)
+    navigation('/')
+  }
+
   return (
     <div>
       <div className=" w-[488px]">
@@ -10,6 +24,7 @@ export function ModalWindow() {
           </div>
           <div>
             <button
+            onClick={() => modalActive(false)}
               type="button"
               className=" text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white"
             >
@@ -31,7 +46,7 @@ export function ModalWindow() {
         <p>Email</p>
         <p>Адрес</p>
       </div>
-      <button className="block m-auto bg-button w-[220px] h-[30px] mt-[262px] text-white rounded-[4px]">
+      <button onClick={() => goHome()} className="block m-auto bg-button w-[220px] h-[30px] mt-[262px] text-white rounded-[4px]">
         Сохранить
       </button>
     </div>

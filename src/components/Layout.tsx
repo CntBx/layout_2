@@ -3,12 +3,12 @@ import moscow_transport from "../photos/moscow_transport.png";
 import moscow_transport2 from "../photos/moscow_transport2.png";
 
 export const Layout = () => (
-  <nav>
-    <header className="flex justify-center gap-10 mr-[500px]">
+  <div className="">
+    <header className="flex justify-start gap-10 ml-[200px]">
       <img
         src={moscow_transport}
         alt="moscow_transport"
-        className="mt-[14px] w-[89px] h-[89px] "
+        className="mt-[14px] w-[89px] h-[89px]"
       />
       <NavLink className="ml-[128px] mt-[52px] font-Commissioner" to="/">
         Главная
@@ -20,18 +20,23 @@ export const Layout = () => (
         Пользователи
       </NavLink>
     </header>
-    <main className="flex justify-center">
-      <Outlet />
-    </main>
-    <div className="flex justify-between">
-      <img
-        src={moscow_transport2}
-        alt="moscow_transport2"
-        className=" w-[79px] h-[77px] top-[834px] left-[200px]"
-      />
-      <p className=" top-[891px] left-[1478px] text-footer">
-        ГУП Московский метрополитен
-      </p>
-    </div>
-  </nav>
+
+      <main className="flex justify-center flex-grow-1">
+        <Outlet />
+      </main>
+
+      <footer className=" flex  justify-between flex-shrink-0 ">
+
+        <img
+          src={moscow_transport2}
+          alt="moscow_transport2"
+          className=" ml-[200px] mt-[31px] w-[79px] h-[77px] "
+        />
+
+        <p className="text-footer mr-[200px] mt-[88px]">
+          ГУП Московский метрополитен
+        </p>
+      </footer>
+
+  </div>
 );
