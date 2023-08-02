@@ -19,6 +19,9 @@ export const Layout = () => (
       <NavLink className="mt-[52px] font-Commissioner" to="/users">
         Пользователи
       </NavLink>
+      <NavLink className="mt-[52px] font-Commissioner" to="/secret">
+        Secret
+      </NavLink>
     </header>
 
       <main className="flex justify-center flex-grow-1">
